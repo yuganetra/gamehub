@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to the project gamehub,  this is a demo for the pull request.
+          Welcome to the project gamehub, this is testing.
         </p>
         <a
           className="App-link"
