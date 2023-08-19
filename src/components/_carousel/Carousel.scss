@@ -1,0 +1,56 @@
+$carouselImage: url("../../assets/carousel/Ghost-carousel.jpg");
+main{
+    height: 100vh;
+    width: 100vw;
+    background-image : $carouselImage;
+    background-size: cover;
+    >.navbar{
+        height: 60px;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+
+        >.logo{
+            margin-top: 10px;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+            >.logo-image{   
+                width: 40px;
+            };
+            >.logo-text{
+                margin-left: 5px;
+                font-weight: lighter;
+                font-family: 'Rubik', sans-serif;
+                color: white;
+                >span{
+                    color : #d72323;
+                }
+            }
+        };
+
+        >.nav-links{
+            width: 30vw;
+            height: 100px;
+            margin-top: 22px;
+            margin-right: 22px;
+            display: flex;
+            justify-content: space-evenly;
+
+            >li{
+                font-size: 1rem;
+                font-family: 'Rubik', sans-serif;
+                align-items: baseline;
+                display: block;
+                color : white;
+                list-style: none;
+                text-decoration: none;
+
+                &:hover{
+                    color: #d72323;
+                }
+            }
+        }
+    }
+};
+
