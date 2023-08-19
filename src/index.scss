@@ -1,0 +1,11 @@
+//Global Styles
+*{
+    margin: 0;
+    padding: 0;
+}
+
+//Pages
+@import url('./pages/_main/Main.scss');
+
+//Components
+@import url('./components/_carousel/Carousel.scss');
