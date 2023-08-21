@@ -1,4 +1,6 @@
 $carouselImage: url("../../assets/carousel/Ghost-carousel.jpg");
+$themeColor: #d72323;
+
 main{
     height: 100vh;
     width: 100vw;
@@ -11,8 +13,8 @@ main{
         justify-content: space-between;
 
         >.logo{
-            margin-top: 10px;
-            margin-left: 10px;
+            // margin-top: 10px;
+            margin-left: 2vw;
             display: flex;
             align-items: center;
             >.logo-image{   
@@ -21,25 +23,26 @@ main{
             >.logo-text{
                 margin-left: 5px;
                 font-weight: lighter;
-                font-family: 'Rubik', sans-serif;
+                font-family: 'pacifico', sans-serif;
+                //font-family: 'Rubik', sans-serif;
                 color: white;
                 >span{
-                    color : #d72323;
+                    color : $themeColor;
                 }
             }
         };
 
         >.nav-links{
             width: 30vw;
-            height: 100px;
-            margin-top: 22px;
+            height: 60px;
             margin-right: 22px;
+            align-items: center;
             display: flex;
             justify-content: space-evenly;
 
             >li{
                 font-size: 1rem;
-                font-family: 'Rubik', sans-serif;
+                font-family: 'pacifico', sans-serif;
                 align-items: baseline;
                 display: block;
                 color : white;
@@ -47,7 +50,7 @@ main{
                 text-decoration: none;
 
                 &:hover{
-                    color: #d72323;
+                    color: $themeColor;
                 }
             }
         }

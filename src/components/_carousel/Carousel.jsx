@@ -16,10 +16,10 @@ const Carousel = () => {
                 </div>
 
                 <ul className="nav-links">
-                    <li>Games</li>
-                    <li>About</li>
-                    <li>Team</li>
-                    <li>TEMP</li>
+                    <li>games</li>
+                    <li>about</li>
+                    <li>team</li>
+                    <li>temp</li>
                 </ul>
             </div>
         </main>
