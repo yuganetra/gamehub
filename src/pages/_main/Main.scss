@@ -1,0 +1,7 @@
+$main-image : url('../../assets/carousel/Ghost-carousel.jpg');
+
+.main-page {
+    background-image: $main-image;
+    background-size: cover;
+    background-attachment: fixed;
+}

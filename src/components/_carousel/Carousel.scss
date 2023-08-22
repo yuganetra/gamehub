@@ -1,11 +1,9 @@
-$carouselImage: url("../../assets/carousel/Ghost-carousel.jpg");
 $themeColor: #d72323;
 
 main{
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
-    background-image : $carouselImage;
-    background-size: cover;
+    background-color: black;
     >.navbar{
         height: 60px;
         background: transparent;
