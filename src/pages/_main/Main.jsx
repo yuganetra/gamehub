@@ -1,10 +1,10 @@
 // import React, { Fragment } from "react"
-import Carousel from "../../components/_carousel/Carousel"
+import Navbar from "../../components/_navbar/Navbar"
 
 const Main = () => {
     return (
         <div className="main-page">
-            <Carousel />
+            <Navbar />
         </div>
     )
 }

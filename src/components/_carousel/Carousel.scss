@@ -1,57 +1,14 @@
-$themeColor: #d72323;
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
 
-main{
-    height: 70vh;
-    width: 100vw;
-    background-color: black;
-    >.navbar{
-        height: 60px;
-        background: transparent;
+    >.carousel {
         display: flex;
-        justify-content: space-between;
+        transition: transform 0.5s ease-in-out;
 
-        >.logo{
-            // margin-top: 10px;
-            margin-left: 2vw;
-            display: flex;
-            align-items: center;
-            >.logo-image{   
-                width: 40px;
-            };
-            >.logo-text{
-                margin-left: 5px;
-                font-weight: lighter;
-                font-family: 'pacifico', sans-serif;
-                //font-family: 'Rubik', sans-serif;
-                color: white;
-                >span{
-                    color : $themeColor;
-                }
-            }
-        };
-
-        >.nav-links{
-            width: 30vw;
-            height: 60px;
-            margin-right: 22px;
-            align-items: center;
-            display: flex;
-            justify-content: space-evenly;
-
-            >li{
-                font-size: 1rem;
-                font-family: 'pacifico', sans-serif;
-                align-items: baseline;
-                display: block;
-                color : white;
-                list-style: none;
-                text-decoration: none;
-
-                &:hover{
-                    color: $themeColor;
-                }
-            }
+        >.carousel-image {
+            width: 100%;
+            height: auto;
         }
     }
-};
-
+}

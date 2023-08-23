@@ -1,29 +1,13 @@
-import React from "react";
-import logo from '../../assets/icon/HatchfulExport-All/logo_transparent1.png';
+import carousel1 from '../../assets/carousel/carousel-1.jpg';
+import carousel2 from '../../assets/carousel/carousel-2.jpg';
+import carousel3 from '../../assets/carousel/carousel-3.jpg';
 
 const Carousel = () => {
-    return (
-        <main>
-            <div className="navbar">
-                <div className="logo">
-                    <img className="logo-image" src={logo} alt="logo" />
-                    <h1 className="logo-text">
-                        game
-                        <span>
-                            hub
-                        </span>
-                    </h1>
-                </div>
-
-                <ul className="nav-links">
-                    <li>games</li>
-                    <li>about</li>
-                    <li>team</li>
-                    <li>temp</li>
-                </ul>
-            </div>
-        </main>
-    )
+    <main className="carousel-root">
+        <div className="carousel">
+            <img src={carousel1} alt="carousel-image-1" className="carousel-image" />
+            <img src={carousel2} alt="carousel-image-3" className="carousel-image" />
+            <img src={carousel3} alt="carousel-image-2" className="carousel-image" />
+        </div>
+    </main>
 }
-
-export default Carousel;
