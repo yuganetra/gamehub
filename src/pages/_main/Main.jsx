@@ -1,10 +1,13 @@
 // import React, { Fragment } from "react"
-import Navbar from "../../components/_navbar/Navbar"
+import Hero from "../../components/_hero/Hero"
 
 const Main = () => {
     return (
         <div className="main-page">
-            <Navbar />
+            <Hero />
+            <div className="temp">
+
+            </div>
         </div>
     )
 }

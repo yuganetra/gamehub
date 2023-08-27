@@ -1,10 +1,12 @@
 $themeColor: #d72323;
+$background :url('../../assets/carousel/carousel-2.png');
 
 nav {
     height: 60px;
     width: 100vw;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9248949579831933) 42%, rgba(215, 35, 35, 1) 100%);
+    background-color: $background;
+    // background: rgb(2, 0, 36);
+    // background: linear-gradient(90deg, rgba(2, 0, 36, 0.9248949579831933) 42%, rgba(215, 35, 35, 1) 100%);
 
     >.navbar {
         height: 60px;
@@ -56,7 +58,7 @@ nav {
                 text-decoration: none;
 
                 &:hover {
-                    color: rgb(2, 0, 36);
+                    color: $themeColor;
                 }
             }
         }

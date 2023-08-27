@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../../assets/icon/HatchfulExport-All/logo_transparent1.png';
 
-const Navbar = () => {
+const Hero = () => {
     return (
         <nav>
             <div className="navbar">
@@ -26,4 +26,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Hero;
