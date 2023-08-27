@@ -1,4 +1,4 @@
-$themeColor: #d72323;
+$primary: #6a66C2;
 $background :url('../../assets/carousel/carousel-2.png');
 
 nav {
@@ -34,7 +34,7 @@ nav {
                 color: white;
 
                 >span {
-                    color: $themeColor;
+                    color: $primary;
                 }
             }
         }
@@ -58,7 +58,7 @@ nav {
                 text-decoration: none;
 
                 &:hover {
-                    color: $themeColor;
+                    color: $primary;
                 }
             }
         }
