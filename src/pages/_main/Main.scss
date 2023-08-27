@@ -1,0 +1,14 @@
+$main-image : url('../../assets/carousel/Ghost-carousel.jpg');
+
+.main-page {
+    //background-image: $main-image;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    >.temp {
+        height: 100vh;
+        width: 100vw;
+    }
+}

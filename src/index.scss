@@ -1,0 +1,19 @@
+//Global Styles
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//Global Variables
+$primary: #6a66C2;
+$secondary: #23132f;
+$accent: #8c54bb;
+
+//External resources
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Pacifico&family=Rubik:wght@300&display=swap');
+
+//Pages
+@import url('./pages/_main/Main.scss');
+
+//Components
+@import url('./components/_hero/Hero.scss');

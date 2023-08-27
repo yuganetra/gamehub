@@ -1,0 +1,68 @@
+$primary: #6a66C2;
+$background :url('../../assets/carousel/carousel-2.png');
+
+nav {
+    height: 60px;
+    width: 100vw;
+    background-color: $background;
+    // background: rgb(2, 0, 36);
+    // background: linear-gradient(90deg, rgba(2, 0, 36, 0.9248949579831933) 42%, rgba(215, 35, 35, 1) 100%);
+
+    >.navbar {
+        height: 60px;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+
+        >.logo {
+            // margin-top: 10px;
+            margin-left: 2vw;
+            display: flex;
+            align-items: center;
+
+            >.logo-image {
+                width: 40px;
+            }
+
+            ;
+
+            >.logo-text {
+                margin-left: 5px;
+                font-weight: lighter;
+                font-family: 'pacifico', sans-serif;
+                //font-family: 'Rubik', sans-serif;
+                color: white;
+
+                >span {
+                    color: $primary;
+                }
+            }
+        }
+
+        ;
+
+        >.nav-links {
+            width: 30vw;
+            height: 60px;
+            align-items: center;
+            display: flex;
+            justify-content: space-evenly;
+
+            >li {
+                font-size: 1.3rem;
+                font-family: 'pacifico', sans-serif;
+                align-items: baseline;
+                display: block;
+                color: white;
+                list-style: none;
+                text-decoration: none;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+;

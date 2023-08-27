@@ -1,11 +1,14 @@
-import React, { Fragment } from "react"
-import Carousel from "../../components/_carousel/Carousel"
+// import React, { Fragment } from "react"
+import Hero from "../../components/_hero/Hero"
 
 const Main = () => {
     return (
-        <Fragment>
-            <Carousel />
-        </Fragment>
+        <div className="main-page">
+            <Hero />
+            <div className="temp">
+
+            </div>
+        </div>
     )
 }
 
