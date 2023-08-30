@@ -1,28 +1,21 @@
 import React from "react";
-import logo from '../../assets/icon/HatchfulExport-All/logo_transparent1.png';
+import img from '../../assets/carousel/Ghost-carousel.jpg';
+
+import {GrSearch} from 'react-icons/gr';
+import {BsFacebook , BsTwitter} from 'react-icons/bs';
+import {FaInstagramSquare ,FaBars} from 'react-icons/fa';
 
 const Hero = () => {
     return (
-        <nav>
-            <div className="navbar">
-                <div className="logo">
-                    <img className="logo-image" src={logo} alt="logo" />
-                    <h1 className="logo-text">
-                        game
-                        <span>
-                            hub
-                        </span>
-                    </h1>
-                </div>
 
-                <ul className="nav-links">
-                    <li>games</li>
-                    <li>about</li>
-                    <li>team</li>
-                    <li>temp</li>
-                </ul>
+        <body>
+          <div className="hero-container">
+            <div className="image">
+              <img src={img} alt="" />
             </div>
-        </nav>
+            
+          </div>
+        </body>
     )
 }
 
