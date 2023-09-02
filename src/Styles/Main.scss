@@ -1,11 +1,10 @@
 
-.hero-container{
+.Main-container{
     width: 100%;
     height: 100vh;
-   
-    background-color: $mainNeon;
+    background-color: $blue2-color;
 
-    >.image{
+    >.image-container{
         width: 100%;
         height: 700px;
         display: flex;
@@ -16,8 +15,7 @@
         >img{
             width: 100%;
             height: 600px;
-            object-fit: fill;
-            
+            object-fit: contain;   
         }
     }
 };
