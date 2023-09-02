@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/icon/logo.png";
+import logo from "../assets/icon/logo.png";
 import { AiOutlineBars } from "react-icons/ai";
 import { BiHomeAlt } from "react-icons/bi";
 import { SiGamejolt } from "react-icons/si";

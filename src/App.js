@@ -1,9 +1,14 @@
 import React from 'react';
-import Main from "./pages/_main/Main"
+
+import Sidebar from './components/Sidebar';
+import Homepage from './components/Homepage';
 
 function App() {
   return (
-    <Main />
+    <div className='app'>
+      <Sidebar/>
+      <Homepage/>
+    </div>
   );
 }
 
