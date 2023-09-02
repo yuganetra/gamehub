@@ -1,12 +1,10 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import Homepage from './components/Homepage';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className='app'>
-      <Sidebar/>
-      <Homepage/>
+    <div>
+      <Home />
     </div>
   );
 }
