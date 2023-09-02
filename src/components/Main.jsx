@@ -2,8 +2,8 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div className="hero-container">
-      <div className="image">
+    <div className="Main-container">
+      <div className="image-container">
         {/* <img src={img} alt="" /> */}
       </div>
     </div>
