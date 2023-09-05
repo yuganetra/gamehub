@@ -2,20 +2,20 @@
     position: fixed;
     top: 50px;
     left: 0;
-    height: 600px;
+    height: calc(100vh - 50px);
     width: 50px;
     padding: 10px 10px;
     background-color: $bg-color;
     transition: $tran-04;
 
-    >.menu-bar {
+    > .menu-bar {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        >.side-links {
+        > .side-links {
             // background-color: #fff;
             width: 100%;
             height: 60px;
@@ -24,7 +24,7 @@
             align-items: center;
             justify-content: center;
 
-            >a {
+            > a {
                 // background-color: purple;
                 position: fixed;
                 width: 20px;
@@ -33,265 +33,18 @@
                 align-items: center;
                 justify-content: center;
 
-                >.icons {
+                > .icons {
                     font-size: 20px;
                     color: white;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-
-                }
-
-                >.text {
-                    height: 100%;
-                    align-items: center;
-                    font-size: 10px;
-                    margin-top: 5px;
-                    text-decoration: none;
-                    color: white;
-                    display: none;
-
-                }
-
-                >.text {
-                    display: 100%;
                 }
             }
         }
-
     }
-
-
 }
+// .sidebar:hover {
+//     width: 100px;
 
-// .sidebar{
-
-//     position: fixed;
-//     top: 50px;
-//     left: 0;
-//     height: 600px;
-//     width: 50px;
-//     padding: 10px 14px;
-//     background-color: $bg-color;
-//     transition: $tran-04;
-
-
-
-
-//      >.menu-bar{
-//         background-color: transparent;
-//         width: 100%;
-//         height: 60%;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-
-//         >.menu{
-//             width: 100%;
-//             height: 100%;
-//             background-color: transparent;
-//             display: flex;
-//             flex-direction: column;
-//             align-items: center;
-
-
-//             // >h1{
-//             //     width: 100%;
-//             //     height: 10%;
-//             //     // margin-top: 10px;
-//             //     font-size: x-large;
-//             //     display: flex;
-//             //     align-items: center;
-//             //     justify-content: center;
-//             //     color: $font-color;
-
-//             // }
-//             // >h1:hover{
-//             //     background: $nav-hover;
-//             //     border-radius: 6px;
-//             //     box-shadow: 5px 5px 0px #ffff;
-//             // }
-//             >.menu-links{
-//                 width: 100%;
-//                 height: 100%;
-//                 display: flex;
-//                 flex-direction: column;
-//                 align-items: center;
-
-
-//                 >.nav-links{
-//                     display: flex;
-//                     flex-direction: column;
-//                     align-items: center;
-//                     justify-content: space-between;
-//                     // background-color: red;
-//                 }
-
-
-//                 >li{
-//                     width: 100%;
-//                     height: 100%;
-//                     background: transparent;
-//                     list-style: none;
-//                     display: flex;
-//                     flex-direction: column;
-//                     align-items: center;
-//                     justify-content: space-between;
-
-//     >a{
-
-//         position: fixed;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: center;
-//         text-decoration: none;
-//         border-radius: 6px;
-//         transition: $tran-05;
-
-//         background-color: red;
-
-//         >.icons{
-//             margin: 10px;
-//             font-size: 20px;
-//             color: white;
-//             display: flex;
-//             align-items: center;
-//             justify-content: center;
-//             min-width: 50px;
-//     }
 // }
-
-//                     // >a:hover{
-//                     //     background: $nav-hover;
-//                     //     box-shadow: 5px 5px 0px #ffff;
-//                     // }
-
-//                     // >a:hover .icons,
-//                     // >a:hover .text{
-//                     //     color: $body-color;
-
-
-//                     // }
-
-//                     >a .text{
-//                         height: 100%;
-//                         align-items: center;
-//                         margin-left: 5px;
-//                         text-decoration: none;
-//                         color: white;
-
-//                     }
-
-//                     >.icons{
-//                         position: fixed;
-//                         display: flex;
-//                         align-items: center;
-//                         justify-content: center;
-//                         min-width: 50px;
-//                         font-size: 100px;
-//                         color: white;
-
-//                     } 
-//                     >.text{
-//                         display: flex;
-//                         align-items: center;
-//                         justify-content: center;
-//                         min-width: 50px;
-//                         font-size: 18px;
-
-//                     }
-
-//                     >.icon,
-//                     >.text{
-
-//                         transition: $tran-02;
-//                     }
-
-
-//                 }
-//             }
-
-//         }
-
-
-//         >.bottom-content{
-
-//             width: 100%;
-//             height: 20%;
-//             display: flex;
-//             flex-direction: column;
-//             align-items: center;
-//             justify-content: center;
-
-//             >li{
-//                 width: 100%;
-//                 height: 100%;
-//                 background: transparent;
-//                 list-style: none;
-//                 display: flex;
-//                 align-items: center;
-
-
-//                 >a{
-
-//                     width: 100%;
-//                     height: inherit;
-//                     display: flex;
-//                     align-items: center;
-//                     justify-content: center;
-//                     text-decoration: none;
-//                     border-radius: 6px;
-//                     transition: $tran-05;
-//                 }
-
-//                 // >a:hover{
-//                 //     background: $nav-hover;
-//                 //     box-shadow: 5px 5px 0px #ffff;
-//                 // }
-
-//                 // >a:hover .icon,
-//                 // >a:hover .text{
-//                 //     color: $body-color;
-
-
-//                 // }
-
-//                 >a .text{
-//                     height: 100%;
-//                     align-items: center;
-//                     margin-left: 5px;
-//                     text-decoration: none;
-//                     color: white;
-
-//                 }
-
-//                 >.icons, .text{
-//                     display: flex;
-//                     align-items: center;
-//                     justify-content: center;
-//                     min-width: 50px;
-//                     font-size: 18px;
-
-//                 }
-
-//                 >.icon,
-//                 >.text{
-//                     color: $body-color;
-//                     transition: $tran-02;
-//                 }
-
-
-//             }
-//         }
-
-
-//       }
-
-
-// };
-
-.sidebar:hover {
-    width: 100px;
-
-}
