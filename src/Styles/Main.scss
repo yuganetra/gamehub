@@ -1,6 +1,20 @@
-
-.Main-container{
+.Main-container {
     width: 100%;
     height: 100vh;
-    background-color: $blue2-color;
+    background-color: #323234;
+
+    > .image-container {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-color: var($mainNeon);
+
+        > img {
+            width: 100%;
+            height: 600px;
+            object-fit: contain;
+        }
+    }
 }

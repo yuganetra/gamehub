@@ -15,7 +15,6 @@ const Sidebar = () => {
             <span className="icons">
               <BiHomeAlt />
             </span>
-            <span className="text nav-text">Home</span>
           </a>
         </li>
         <li className="side-links">
@@ -23,7 +22,6 @@ const Sidebar = () => {
             <span className="icons">
               <SiGamejolt />
             </span>
-            <span className="text side-text">Games</span>
           </a>
         </li>
 
@@ -32,7 +30,6 @@ const Sidebar = () => {
             <span className="icons">
               <PiTelevision />
             </span>
-            <span className="text side-text">Streams</span>
           </a>
         </li>
 
@@ -41,7 +38,6 @@ const Sidebar = () => {
             <span className="icons">
               <FiSettings />
             </span>
-            <span className="text side-text">Settings</span>
           </a>
         </li>
         <li className="side-links">
@@ -49,14 +45,10 @@ const Sidebar = () => {
             <span className="icons">
               <IoIosChatboxes />
             </span>
-            <span className="text side-text">Help</span>
           </a>
         </li>
       </ul>
     </div>
-
-
-
   );
 };
 export default Sidebar;
