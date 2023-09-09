@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Home from './pages/Home';
+import Sidebar from './components/Sidebar';
 
 function App() {
 
@@ -12,13 +13,18 @@ function App() {
   return (
     <div className='App'>
 
-     {/* gate code */}
+    {/* gate code */}
      <div className={`gate-container ${click ? "gate-opened" : ""}`}>
         <button onClick={ClickHandler} className="glowing-btn">
          <span className="glowing-txt">E<span className="faulty-letter">X</span>PLORE</span>
         </button>
       </div>
 
+    {/* sidebar */}
+      <Sidebar />
+
+
+    {/* Home Js inside which every homepage components are imported */}
       <Home />
     </div>
   );

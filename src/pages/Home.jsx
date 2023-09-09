@@ -1,11 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Main from '../components/Main';
-import Sidebar from '../components/Sidebar';
 
 const Home = () => {
     return (
-        <div>
-            <Sidebar />
+        <div className='Home'>
             <Main />
         </div>
     )
