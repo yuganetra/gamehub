@@ -27,6 +27,7 @@ const Main = () => {
           <h2>Please Modify Below<HiOutlineArrowSmDown /> </h2>
         </div>
       </div>
+    </div>
   )
 }
 
