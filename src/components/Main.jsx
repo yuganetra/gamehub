@@ -24,7 +24,7 @@ const Main = () => {
     {/* Cards Section */}
       <div className="cards-container">
         <div className="msgForChutiyas">
-          <h2>Chutiyo Modify Below...<HiOutlineArrowSmDown /> </h2>
+          <h2>Please Modify Below<HiOutlineArrowSmDown /> </h2>
         </div>
       </div>
   )
