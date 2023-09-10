@@ -1,53 +1,67 @@
 import React from "react";
-import { BiHomeAlt } from "react-icons/bi";
-import { SiGamejolt } from "react-icons/si";
-import { PiTelevision } from "react-icons/pi";
-import { FiSettings } from "react-icons/fi";
-import { IoIosChatboxes } from "react-icons/io";
+import { PiGameControllerLight, PiGearLight } from "react-icons/pi";
+import { CiStreamOn } from "react-icons/ci";
+import { AiOutlineMessage, AiOutlineHome } from "react-icons/ai";
+import { SlPower } from "react-icons/sl"
 
 const Sidebar = () => {
   return (
 
     <div className="sidebar">
       <ul className="menu-bar">
-        <li className="side-links">
-          <a href="#">
+
+        <li title="Home" className="side-links home">
+          <a href="#" >
             <span className="icons">
-              <BiHomeAlt />
-            </span>
-          </a>
-        </li>
-        <li className="side-links">
-          <a href="#">
-            <span className="icons">
-              <SiGamejolt />
+              <AiOutlineHome />
             </span>
           </a>
         </li>
 
-        <li className="side-links">
+        <li title="Games" className="side-links game">
           <a href="#">
             <span className="icons">
-              <PiTelevision />
+              <PiGameControllerLight />
             </span>
           </a>
         </li>
 
-        <li className="side-links">
+        <li title="Stream" className="side-links stream">
           <a href="#">
             <span className="icons">
-              <FiSettings />
+              <CiStreamOn />
             </span>
           </a>
         </li>
-        <li className="side-links">
+
+        <li title="Messages" className="side-links message">
           <a href="#">
             <span className="icons">
-              <IoIosChatboxes />
+              <AiOutlineMessage />
+            </span>
+          </a>
+        </li>
+
+        <li title="Setting" className="side-links setting">
+          <a href="#">
+            <span className="icons">
+              <PiGearLight />
+            </span>
+          </a>
+        </li>
+
+      </ul>
+
+      <ul className="login-container">
+        <li title="Login" className="side-links login">
+          <a href="#">
+            <span className="icons">
+              <SlPower />
             </span>
           </a>
         </li>
       </ul>
+
     </div>
   );
 };
