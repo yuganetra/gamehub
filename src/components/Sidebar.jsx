@@ -3,8 +3,14 @@ import { PiGameControllerLight, PiGearLight } from "react-icons/pi";
 import { CiStreamOn } from "react-icons/ci";
 import { AiOutlineMessage, AiOutlineHome } from "react-icons/ai";
 import { SlPower } from "react-icons/sl"
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
+  // const navigate = useNavigate();
+
+  // const navigateToSignUp = ()=>{
+  //   navigate('/Signup');
+  // }
   return (
 
     <div className="sidebar">
@@ -54,7 +60,7 @@ const Sidebar = () => {
 
       <ul className="login-container">
         <li title="Login" className="side-links login">
-          <a href="#">
+          <a href="Signup">
             <span className="icons">
               <SlPower />
             </span>
