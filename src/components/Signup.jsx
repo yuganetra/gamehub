@@ -6,7 +6,7 @@ import {RiLockPasswordFill} from 'react-icons/ri';
 const Signup =()=> {
     const [action, setaction] = useState("Login");
   return (
-    <div className="signup-form">
+    <div id='Signup' className="signup-form">
     <div className="container">
         <div className="header">
             <div className="text">{action}</div>

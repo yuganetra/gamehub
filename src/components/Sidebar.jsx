@@ -1,9 +1,10 @@
-import React from "react";
+import React from "react"; 
 import { PiGameControllerLight, PiGearLight } from "react-icons/pi";
 import { CiStreamOn } from "react-icons/ci";
 import { AiOutlineMessage, AiOutlineHome } from "react-icons/ai";
-import { SlPower } from "react-icons/sl"
-import { useNavigate } from "react-router-dom";
+import { SlPower } from "react-icons/sl";
+import {AiFillGitlab} from "react-icons/ai";
+// import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
   // const navigate = useNavigate();
@@ -17,15 +18,23 @@ const Sidebar = () => {
       <ul className="menu-bar">
 
         <li title="Home" className="side-links home">
-          <a href="#" >
+          <a href="/" >
             <span className="icons">
               <AiOutlineHome />
             </span>
           </a>
         </li>
 
+        <li title="Profile" className="side-links home">
+          <a href="/Profile" >
+            <span className="icons">
+              <AiFillGitlab />
+            </span>
+          </a>
+        </li>
+
         <li title="Games" className="side-links game">
-          <a href="#">
+          <a href="/Games">
             <span className="icons">
               <PiGameControllerLight />
             </span>
@@ -33,7 +42,7 @@ const Sidebar = () => {
         </li>
 
         <li title="Stream" className="side-links stream">
-          <a href="#">
+          <a href="/Stream">
             <span className="icons">
               <CiStreamOn />
             </span>
@@ -41,7 +50,7 @@ const Sidebar = () => {
         </li>
 
         <li title="Messages" className="side-links message">
-          <a href="#">
+          <a href="/Messages">
             <span className="icons">
               <AiOutlineMessage />
             </span>
@@ -49,7 +58,7 @@ const Sidebar = () => {
         </li>
 
         <li title="Setting" className="side-links setting">
-          <a href="#">
+          <a href="/Setting">
             <span className="icons">
               <PiGearLight />
             </span>
@@ -60,7 +69,7 @@ const Sidebar = () => {
 
       <ul className="login-container">
         <li title="Login" className="side-links login">
-          <a href="Signup">
+        <a href="/Signup">
             <span className="icons">
               <SlPower />
             </span>
