@@ -170,6 +170,7 @@
        
         &::-webkit-scrollbar {
           height: 5px;
+         
           
         }
         &::-webkit-scrollbar-track {
@@ -259,42 +260,8 @@
           }
 
         }
-        // >.first-item{
-        //   margin-left: 200px;
-        // }
-        // >.last-item{
-        //   margin-right: 12px;
-        // }
+       
       }
     }
-   
-    
-    // > .msgForChutiyas {
-    //     width: 100%;
-    //     height: 6rem;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-
-    //     > h2{
-    //         margin-left: 10%;
-    //         font-size: 3rem;
-    //         color: rgb(40, 181, 40);
-    //         display: flex;
-    //         align-items: center;
-    //         justify-content: content;
-
-    //         > svg{
-    //             font-size: 5rem;
-    //             animation: move 1s infinite ease-in-out;
-
-    //             @keyframes move {
-    //                 50%{
-    //                     transform: translateY(10%);
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
   }
 }
