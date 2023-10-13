@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Home from "./pages/Home";
 import Sidebar from "./components/Sidebar";
 import Signup from "./components/Signup";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Profile from "./components/Profile";
 
 function App() {
@@ -23,14 +23,11 @@ function App() {
         </button>
       </div>
       <Sidebar />
-      <BrowserRouter>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          {/* <Route exact path="/Sidebar" element={<Sidebar />} /> */}
-          <Route path="/Signup" element={<Signup />} />
-          <Route path="/Profile" element={<Profile />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Profile" element={<Profile />} />
+      </Routes>
     </div>
   );
 }
